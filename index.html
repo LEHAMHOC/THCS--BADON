@@ -7,22 +7,30 @@
   <style>
     body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
     header { background-color: #003366; color: white; padding: 10px 20px; display: flex; align-items: center; }
-    header img { height: 60px; margin-right: 20px; }
+    header img { height: 60px; width: auto; margin-right: 20px; }
     header h1 { font-size: 24px; margin: 0; }
     nav { background-color: #005599; display: flex; flex-wrap: wrap; justify-content: center; }
-    nav a {
-      color: white; padding: 12px 16px; text-decoration: none;
-      display: inline-block; transition: background 0.3s;
-    }
+    nav a { color: white; padding: 12px 16px; text-decoration: none; display: inline-block; transition: background 0.3s; }
     nav a:hover { background-color: #003f7f; }
     .hero {
-      background-image: url('e2e9b33b-9822-45e9-a67b-3f4eeb444051.png');
+      background-image: url('background.png');
       background-size: cover;
-      background-position: center 20%;
-      height: 400px; display: flex;
-      align-items: center; justify-content: center; color: white;
-      text-shadow: 1px 1px 3px #000; font-size: 28px; text-align: center;
-      padding: 20px;
+      background-position: top center;
+      height: 320px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 1px 1px 3px #000;
+      font-size: 28px;
+      text-align: center;
+      padding: 0 20px;
+    }
+    .hero p {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 10px 20px;
+      border-radius: 8px;
+      max-width: 80%;
     }
     .section { padding: 40px 20px; max-width: 960px; margin: auto; }
     .section h2 { color: #003366; margin-bottom: 20px; }
@@ -31,10 +39,9 @@
 </head>
 <body>
   <header>
-    <img src="z6743322490835_ec3615059161cbbfbdd0859d36ccbc45.jpg" alt="Logo Trường THCS Ba Đồn">
+    <img src="logo.png" alt="Logo Trường THCS Ba Đồn">
     <h1>TRƯỜNG THCS BA ĐỒN</h1>
   </header>
-
   <nav>
     <a href="#gioi-thieu">Giới thiệu</a>
     <a href="#tin-tuc">Tin tức</a>
@@ -45,18 +52,15 @@
     <a href="#de-thi">Đề thi</a>
     <a href="#lien-he">Liên hệ</a>
   </nav>
-
   <div class="hero">
-    Học để trưởng thành – Sống để cống hiến
+    <p>Trường học của tương lai: Kiến tạo tri thức, bồi đắp nhân cách, phát triển toàn diện</p>
   </div>
-
   <div class="section" id="gioi-thieu">
     <h2>Giới thiệu</h2>
     <p>Trường Trung học Cơ sở Ba Đồn, thành lập từ năm 1956, tọa lạc tại số 18, đường Lê Lợi, phường Ba Đồn, tỉnh Quảng Trị. Trải qua hơn sáu thập kỷ xây dựng và phát triển, nhà trường đã không ngừng lớn mạnh, trở thành một trong những đơn vị giáo dục tiêu biểu của tỉnh.</p>
     <p>Với đội ngũ giáo viên tâm huyết, có năng lực và luôn yêu thương học sinh, Trường THCS Ba Đồn nhiều năm liền được công nhận là tập thể lao động xuất sắc. Đặc biệt, trường 3 năm liên tục được tặng Cờ thi đua Đơn vị dẫn đầu khối THCS toàn tỉnh.</p>
     <p>Thành tích nổi bật của nhà trường còn được minh chứng qua kết quả thi vào THPT, khi luôn nằm trong tốp 7 trường dẫn đầu toàn tỉnh.</p>
   </div>
-
   <footer>
     Địa chỉ: Số 18, đường Lê Lợi, phường Ba Đồn, tỉnh Quảng Trị | Email: thcsbadon_bd@quangbinh.edu.vn | Điện thoại: 0975676586
   </footer>
